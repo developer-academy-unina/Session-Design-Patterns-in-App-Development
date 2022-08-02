@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		851250192795B1AB003F5667 /* CondimentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851250182795B1AB003F5667 /* CondimentsView.swift */; };
+		853EDE7C279EAA01000BC2FA /* PastaHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853EDE7B279EAA01000BC2FA /* PastaHeaderView.swift */; };
+		853EDE80279EB001000BC2FA /* CondimentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853EDE7F279EB001000BC2FA /* CondimentRow.swift */; };
+		853EDE84279ECEFF000BC2FA /* PrepareLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853EDE83279ECEFF000BC2FA /* PrepareLabel.swift */; };
+		854567C52790110100F38622 /* SpaghettiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854567C42790110100F38622 /* SpaghettiApp.swift */; };
+		854567C72790110100F38622 /* PastaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854567C62790110100F38622 /* PastaView.swift */; };
+		854567C92790110200F38622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854567C82790110200F38622 /* Assets.xcassets */; };
+		854567CC2790110200F38622 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854567CB2790110200F38622 /* Preview Assets.xcassets */; };
+		854567D52790127600F38622 /* PastaKindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854567D42790127600F38622 /* PastaKindView.swift */; };
+		854567D92790429300F38622 /* PastaKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854567D82790429300F38622 /* PastaKind.swift */; };
+		854567DB279042F200F38622 /* PastaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854567DA279042F200F38622 /* PastaViewModel.swift */; };
+		855F39C92799AA6800DC0849 /* CondimentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855F39C82799AA6800DC0849 /* CondimentsViewModel.swift */; };
+		855F39CB2799ADD700DC0849 /* Condiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855F39CA2799ADD700DC0849 /* Condiment.swift */; };
+		858E619E2792D71D008390E3 /* PastaGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858E619D2792D71D008390E3 /* PastaGridView.swift */; };
+		858E61A027932548008390E3 /* ServedPastaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858E619F27932548008390E3 /* ServedPastaView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		851250182795B1AB003F5667 /* CondimentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CondimentsView.swift; sourceTree = "<group>"; };
+		853EDE7B279EAA01000BC2FA /* PastaHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaHeaderView.swift; sourceTree = "<group>"; };
+		853EDE7F279EB001000BC2FA /* CondimentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CondimentRow.swift; sourceTree = "<group>"; };
+		853EDE83279ECEFF000BC2FA /* PrepareLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepareLabel.swift; sourceTree = "<group>"; };
+		854567C12790110100F38622 /* Spaghetti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spaghetti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		854567C42790110100F38622 /* SpaghettiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaghettiApp.swift; sourceTree = "<group>"; };
+		854567C62790110100F38622 /* PastaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaView.swift; sourceTree = "<group>"; };
+		854567C82790110200F38622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		854567CB2790110200F38622 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		854567D42790127600F38622 /* PastaKindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaKindView.swift; sourceTree = "<group>"; };
+		854567D82790429300F38622 /* PastaKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaKind.swift; sourceTree = "<group>"; };
+		854567DA279042F200F38622 /* PastaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaViewModel.swift; sourceTree = "<group>"; };
+		855F39C82799AA6800DC0849 /* CondimentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CondimentsViewModel.swift; sourceTree = "<group>"; };
+		855F39CA2799ADD700DC0849 /* Condiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Condiment.swift; sourceTree = "<group>"; };
+		858E619D2792D71D008390E3 /* PastaGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaGridView.swift; sourceTree = "<group>"; };
+		858E619F27932548008390E3 /* ServedPastaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServedPastaView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		854567BE2790110100F38622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		853EDE7D279EAB55000BC2FA /* PastaViews */ = {
+			isa = PBXGroup;
+			children = (
+				854567C62790110100F38622 /* PastaView.swift */,
+				858E619D2792D71D008390E3 /* PastaGridView.swift */,
+				853EDE7B279EAA01000BC2FA /* PastaHeaderView.swift */,
+				854567D42790127600F38622 /* PastaKindView.swift */,
+			);
+			path = PastaViews;
+			sourceTree = "<group>";
+		};
+		853EDE7E279EAB64000BC2FA /* CondimentsViews */ = {
+			isa = PBXGroup;
+			children = (
+				851250182795B1AB003F5667 /* CondimentsView.swift */,
+				853EDE7F279EB001000BC2FA /* CondimentRow.swift */,
+				853EDE83279ECEFF000BC2FA /* PrepareLabel.swift */,
+			);
+			path = CondimentsViews;
+			sourceTree = "<group>";
+		};
+		854567B82790110100F38622 = {
+			isa = PBXGroup;
+			children = (
+				854567C32790110100F38622 /* Spaghetti */,
+				854567C22790110100F38622 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		854567C22790110100F38622 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				854567C12790110100F38622 /* Spaghetti.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		854567C32790110100F38622 /* Spaghetti */ = {
+			isa = PBXGroup;
+			children = (
+				854567C42790110100F38622 /* SpaghettiApp.swift */,
+				854567D22790124000F38622 /* Model */,
+				854567DE2790466000F38622 /* ViewModels */,
+				854567D32790124600F38622 /* Views */,
+				854567C82790110200F38622 /* Assets.xcassets */,
+				854567CA2790110200F38622 /* Preview Content */,
+			);
+			path = Spaghetti;
+			sourceTree = "<group>";
+		};
+		854567CA2790110200F38622 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				854567CB2790110200F38622 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		854567D22790124000F38622 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				854567D82790429300F38622 /* PastaKind.swift */,
+				855F39CA2799ADD700DC0849 /* Condiment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		854567D32790124600F38622 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				853EDE7D279EAB55000BC2FA /* PastaViews */,
+				853EDE7E279EAB64000BC2FA /* CondimentsViews */,
+				858E619F27932548008390E3 /* ServedPastaView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		854567DE2790466000F38622 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				854567DA279042F200F38622 /* PastaViewModel.swift */,
+				855F39C82799AA6800DC0849 /* CondimentsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		854567C02790110100F38622 /* Spaghetti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 854567CF2790110200F38622 /* Build configuration list for PBXNativeTarget "Spaghetti" */;
+			buildPhases = (
+				854567BD2790110100F38622 /* Sources */,
+				854567BE2790110100F38622 /* Frameworks */,
+				854567BF2790110100F38622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spaghetti;
+			productName = Spaghetti;
+			productReference = 854567C12790110100F38622 /* Spaghetti.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		854567B92790110100F38622 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					854567C02790110100F38622 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 854567BC2790110100F38622 /* Build configuration list for PBXProject "Spaghetti" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 854567B82790110100F38622;
+			productRefGroup = 854567C22790110100F38622 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				854567C02790110100F38622 /* Spaghetti */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		854567BF2790110100F38622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854567CC2790110200F38622 /* Preview Assets.xcassets in Resources */,
+				854567C92790110200F38622 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		854567BD2790110100F38622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854567C72790110100F38622 /* PastaView.swift in Sources */,
+				855F39CB2799ADD700DC0849 /* Condiment.swift in Sources */,
+				853EDE7C279EAA01000BC2FA /* PastaHeaderView.swift in Sources */,
+				854567DB279042F200F38622 /* PastaViewModel.swift in Sources */,
+				854567D52790127600F38622 /* PastaKindView.swift in Sources */,
+				858E619E2792D71D008390E3 /* PastaGridView.swift in Sources */,
+				853EDE80279EB001000BC2FA /* CondimentRow.swift in Sources */,
+				851250192795B1AB003F5667 /* CondimentsView.swift in Sources */,
+				853EDE84279ECEFF000BC2FA /* PrepareLabel.swift in Sources */,
+				858E61A027932548008390E3 /* ServedPastaView.swift in Sources */,
+				854567D92790429300F38622 /* PastaKind.swift in Sources */,
+				855F39C92799AA6800DC0849 /* CondimentsViewModel.swift in Sources */,
+				854567C52790110100F38622 /* SpaghettiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		854567CD2790110200F38622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		854567CE2790110200F38622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		854567D02790110200F38622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spaghetti/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.academy.Spaghetti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		854567D12790110200F38622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spaghetti/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.academy.Spaghetti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		854567BC2790110100F38622 /* Build configuration list for PBXProject "Spaghetti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854567CD2790110200F38622 /* Debug */,
+				854567CE2790110200F38622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		854567CF2790110200F38622 /* Build configuration list for PBXNativeTarget "Spaghetti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854567D02790110200F38622 /* Debug */,
+				854567D12790110200F38622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 854567B92790110100F38622 /* Project object */;
+}
