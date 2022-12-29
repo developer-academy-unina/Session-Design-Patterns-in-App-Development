@@ -2,9 +2,9 @@
   <h3>Session</h3>
   <h1>Design Patterns in App Development</h1>
   <br />
-  <a href="https://github.com/developer-academy-unina/Workshop-Architectural-Design-Patterns-in-SwiftUI/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
+  <a href="https://github.com/developer-academy-unina/Session-Design-Patterns-in-App-Development/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
   ·
-  <a href="https://github.com/developer-academy-unina/Workshop-Architectural-Design-Patterns-in-SwiftUI/discussions">Ask a Question</a>
+  <a href="https://github.com/developer-academy-unina/Session-Design-Patterns-in-App-Development/discussions">Ask a Question</a>
   
 </div>
   <br />
@@ -58,7 +58,7 @@ By the end of the activity you should be acquainted to combining the MVVM Patter
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/developer-academy-unina/Workshop-Architectural-Design-Patterns-in-SwiftUI
+   git clone https://github.com/developer-academy-unina/Session-Design-Patterns-in-App-Development
    ```
 
 2. Open the ```.xcodeproj``` file
@@ -82,7 +82,7 @@ This is the final result of the Spaghetti App with the MVVM Pattern integration.
 
 ## Issues and Discussions
 
-You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature? Take a look at [GitHub Discussions](https://github.com/developer-academy-unina/Workshop-Architectural-Design-Patterns-in-SwiftUI/discussions) to see if it's already being discussed. You can help us by [submitting an issue on GitHub](https://github.com/developer-academy-unina/Workshop-Architectural-Design-Patterns-in-SwiftUI/issues). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
+You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature? Take a look at [GitHub Discussions](https://github.com/developer-academy-unina/Session-Design-Patterns-in-App-Development/discussions) to see if it's already being discussed. You can help us by [submitting an issue on GitHub](https://github.com/developer-academy-unina/Session-Design-Patterns-in-App-Development/issues). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
 
 Please try to create bug reports that are:
 
@@ -97,8 +97,8 @@ Please try to create bug reports that are:
 
 Reach out to the maintainer at one of the following places:
 
-- [GitHub Discussions](https://github.com/developer-academy-unina/Workshop-Architectural-Design-Patterns-in-SwiftUI/discussions)
-- [GitHub issues](https://github.com/developer-academy-unina/Workshop-Architectural-Design-Patterns-in-SwiftUI/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+)
+- [GitHub Discussions](https://github.com/developer-academy-unina/Session-Design-Patterns-in-App-Development/discussions)
+- [GitHub issues](https://github.com/developer-academy-unina/Session-Design-Patterns-in-App-Development/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+)
 - Contact a Mentor for any other help
 
 <br />
@@ -107,7 +107,7 @@ Reach out to the maintainer at one of the following places:
 
 The original setup of this repository is by [Luca Palmese](https://github.com/pal-luke).
 
-For a full list of all authors and contributors, see [the contributors page](https://github.com/developer-academy-unina/Workshop-Architectural-Design-Patterns-in-SwiftUI/contributors).
+For a full list of all authors and contributors, see [the contributors page](https://github.com/developer-academy-unina/Session-Design-Patterns-in-App-Development/contributors).
 
 <br />
 
