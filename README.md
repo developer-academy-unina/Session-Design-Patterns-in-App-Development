@@ -1,6 +1,6 @@
 <div align="center">
-  <h3>Workshop</h3>
-  <h1>Architectural Design Patterns in SwiftUI</h1>
+  <h3>Session</h3>
+  <h1>Design Patterns in App Development</h1>
   <br />
   <a href="https://github.com/developer-academy-unina/Workshop-Architectural-Design-Patterns-in-SwiftUI/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
   ·
